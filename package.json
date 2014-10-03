@@ -1,12 +1,7 @@
 {
-  "name": "browser-run",
+  "name": "@timoxley/browser-run",
   "description": "Transform stream that executes JavaScript it receives in a real browser and outputs console output",
-  "version": "0.4.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/juliangruber/browser-run.git"
-  },
-  "homepage": "https://github.com/juliangruber/browser-run",
+  "version": "1.0.0",
   "main": "index.js",
   "bin": {
     "browser-run": "./bin/bin.js"
@@ -35,10 +30,18 @@
     "headless",
     "duplex"
   ],
-  "author": {
-    "name": "Julian Gruber",
-    "email": "mail@juliangruber.com",
-    "url": "http://juliangruber.com"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
   },
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/browser-run.git"
+  },
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/timoxley/browser-run/issues"
+  },
+  "homepage": "https://github.com/timoxley/browser-run",
+  "forkedFrom": "browser-run"
 }
