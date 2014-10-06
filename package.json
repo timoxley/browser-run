@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "browser-launcher2": "~0.4.3",
-    "browserify": "~5.9.3",
-    "duplexer": "0.0.3",
+    "browserify": "~6.0.2",
+    "duplexer": "~0.1.1",
     "enstore": "~0.0.1",
-    "optimist": "~0.3.5",
-    "through": "~2.2.7",
+    "optimist": "~0.6.1",
+    "through": "~2.3.6",
     "utf8-stream": "0.0.0",
     "xhr-write-stream": "~0.1.2"
   },
