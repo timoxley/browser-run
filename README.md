@@ -2,11 +2,14 @@
 
 The easiest way of running code in a browser environment.
 
+Same as [juliangruber/browser-run](https://github.com/juliangruber/browser-run), but uses
+[benderjs/browser-launcher2](https://github.com/benderjs/browser-launcher2) instead of [substack/browser-launcher](https://github.com/substack/browser-launcher), due to [substack/browser-launcher/issues/34](https://github.com/substack/browser-launcher/issues/34).
+
 ## Installation
 
 ```bash
-$ npm install @timoxley/browser-run    # for library
-$ npm install -g @timoxley/browser-run # for cli
+$ npm install browser-run2    # for library
+$ npm install -g browser-run2 # for cli
 ```
 
 ## Usage
@@ -19,7 +22,7 @@ Hey there from http://localhost:53227/
 Or use `browser-run` programmatically:
 
 ```js
-var run = require('@timoxley/browser-run');
+var run = require('browser-run2');
 
 var browser = run();
 browser.pipe(process.stdout);
@@ -37,7 +40,7 @@ or
 
 ```js
 var browserify = require('browserify');
-var browser = require('@timoxley/browser-run');
+var browser = require('browser-run2');
 
 browserify('main.js').bundle().pipe(browser()).pipe(process.stdout);
 ```
