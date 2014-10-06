@@ -1,7 +1,7 @@
 {
   "name": "browser-run2",
   "description": "Transform stream that executes JavaScript it receives in a real browser and outputs console output",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "bin": {
     "browser-run2": "./bin/bin.js"
